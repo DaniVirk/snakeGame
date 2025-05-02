@@ -3,7 +3,7 @@
 
 
 
-class snake {
+class Snake {
 
 };
 

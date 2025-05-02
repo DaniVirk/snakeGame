@@ -13,8 +13,10 @@ find_package(SFML 3.0 COMPONENTS Graphics Window System REQUIRED)
 add_executable(snakeGame main.cpp
         src/game_engine/snake.cpp
         src/headers/snake.h
-        src/game_engine/game_setting.cpp
-        src/headers/game_setting.h)
+        src/game_engine/GameSettings.cpp
+        src/headers/GameSettings.h
+        src/game_engine/game.cpp
+        src/headers/game.h)
 
 target_link_libraries(snakeGame
         PRIVATE

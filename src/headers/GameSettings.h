@@ -3,7 +3,7 @@
 
 
 
-class game_setting {
+class GameSettings {
     public:
     int windows_size_width;
     int windows_size_height;
