@@ -1,5 +1,5 @@
-﻿#include "src/headers/Game.h"
-#include "src/headers/GameSettings.h"
+﻿#include "src/headers/game.h"
+#include "src/headers/game_settings.h"
 
 int main()
 {

@@ -1,7 +1,7 @@
-﻿#include "../headers/Game.h"
+﻿#include "../headers/game.h"
 #include <SFML/Graphics.hpp>
 
-void Game::gameStart() {
+void Game::GameStart() {
     // create the window
     sf::RenderWindow window(sf::VideoMode({800, 600}), "My window");
 

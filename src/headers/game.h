@@ -5,7 +5,7 @@
 
 class Game {
 public:
-    void gameStart();
+    void GameStart();
 };
 
 
